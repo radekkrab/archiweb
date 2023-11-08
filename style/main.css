@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@200;400;600;700;900&family=Open+Sans&family=Playfair+Display:wght@400;700;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Навигация */
+
+.nav__flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.nav__logo {
+    width: 50%;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.nav__item {
+    color: #2F2E2E;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav__logo {
+    color: #2F2E2E;
+    font-family: 'Barlow';
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav__icon {
+    align-self: center;
+}
+
+/* Хедер */
+
+.header {
+    position: relative;
+}
+
+.header__img {
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+
+.header__block {
+    position: absolute;
+    top: 95px;
+    width: 691px;
+    height: 550px;
+    background: linear-gradient(91deg, rgba(244, 246, 245, 0.90) -7.89%, rgba(255, 255, 255, 0.90) 132.55%);
+    text-align: center;
+    padding: 138px 166px 139px 100px;
+}
+
+.header__block-h1 {
+    color: #2F2E2E;
+    font-family: 'Playfair Display';
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.header__block-p {
+    color: #2F2E2E;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
